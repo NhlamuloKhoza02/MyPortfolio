@@ -1,0 +1,178 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body background, font, and general layout */
+body {
+    font-family: 'Poppins', sans-serif; /* Soft, friendly font */
+    background-color: #f9f7f7; /* Light pinkish background */
+    color: #333;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+/* Header styling with a pastel background and playful font */
+header {
+    background-color: #ffb6c1; /* Soft pink background */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the navigation bar */
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Hover color */
+}
+
+/* Main content sections styling */
+section {
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Adding cute icons, images, and animations */
+h1 {
+    color: #ff6f61; /* Soft coral */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #f08080; /* Light coral */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 15px 0;
+}
+
+.project {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.project h2 {
+    color: #ff6f61;
+    font-size: 1.5em;
+}
+
+.project p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Adding rounded corners to images or avatars */
+img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Skills section with cute bullet points */
+ul {
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 500px;
+}
+
+ul li {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+ul li::before {
+    content: "🌸"; /* Flower icon */
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+/* Contact section styling */
+#contact {
+    background-color: #ffb6c1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #ff6f61;
+    padding: 12px 25px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+#contact a:hover {
+    background-color: #ff9b8f;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Smooth Scroll effect */
+a {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ff6f61;
+    transform: scale(1.1);
+}
+
